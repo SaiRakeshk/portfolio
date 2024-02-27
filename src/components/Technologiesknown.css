@@ -1,0 +1,60 @@
+.frontend {
+    display: flex;
+   justify-content: center;
+
+  }
+  
+  .frontend img {
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    margin-right: 20px; /* Adjust spacing between icons */
+  }
+  .backend {
+    display: flex;
+   justify-content: center;
+
+  }
+  
+  .backend img {
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    margin-right: 20px; /* Adjust spacing between icons */
+  }
+  .db {
+    display: flex;
+   justify-content: center;
+
+  }
+  .languages img {
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    margin-right: 20px; /* Adjust spacing between icons */
+  }
+  .languages {
+    display: flex;
+   justify-content: center;
+
+  }
+  
+  .db img {
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    margin-right: 20px; /* Adjust spacing between icons */
+  } 
+/* Apply responsive styles */
+@media only screen and (max-width: 768px) {
+    /* Adjust width and height of icons for smaller screens */
+    .tech-icon {
+      width: 60px; /* Adjust the width as needed */
+      height: 60px; /* Adjust the height as needed */
+    }
+  
+    /* Reduce margin between icons for smaller screens */
+    .frontend img,
+    .backend img,
+    .db img,
+    .languages img {
+      margin-right: 10px; /* Adjust spacing between icons */
+    }
+  }
+  

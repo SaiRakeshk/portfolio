@@ -1,0 +1,76 @@
+.aboutme {
+   /* Black background color */
+  padding: 20px;
+  text-align: center;
+}
+.important{
+  font-size: 30px;
+}
+body {
+ 
+  background-color: #fdfafa; /* Black background color for the entire page */
+  color: #080808; /* White text color */
+  margin: 0; /* Remove default margin on body */
+  font-family: Arial, sans-serif; /* Set a preferred font-family */
+  padding-top: 70px;
+}
+.image {
+  width: 200px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  size: fixed;
+}
+
+.textbox {
+  opacity: 0.9;
+  
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px; /* Adjust the value to control the roundness of the edges */
+}
+
+
+.aboutme {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.p {
+  color: rgb(7, 0, 0);
+  margin: 0; /* Remove default margin for the p element */
+  white-space: nowrap; /* Prevent text from wrapping to a new line */
+  overflow: hidden;
+  animation: typing 3s steps(30, end) infinite;}
+
+
+  @media only screen and (max-width: 768px) {
+    .aboutme {
+      display: flex;
+      flex-direction: column; /* Change flex direction to column */
+      align-items: center; /* Center items horizontally */
+    }
+  
+    .image {
+      width: 80vw; /* Adjust width to fit the viewport */
+      max-width: 200px; /* Maximum width of 200px */
+      height: auto; /* Automatically adjust height to maintain aspect ratio */
+      border-radius: 50%;
+      overflow: hidden;
+      margin-bottom: 20px; /* Reduce bottom margin for spacing */
+    }
+  
+    .textbox {
+      width: 80vw; /* Adjust width to fit the viewport */
+      margin-right: 0; /* Remove right margin */
+      text-align: center; /* Center text */
+    }
+  }
+  

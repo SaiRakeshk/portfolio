@@ -1,0 +1,52 @@
+/* Project.css */
+
+.project-container {
+  padding: 20px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column; /* Adjust the layout for smaller screens */
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  margin-bottom: 20px; /* Add margin between project containers */
+}
+
+.project-image {
+  width: 400px; /* Adjust the width as needed */
+  height: 380px; /* Adjust the height as needed */
+}
+
+.project-description {
+  padding: 20px;
+}
+
+.project-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project-text {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Add media query for smaller screens */
+@media only screen and (min-width: 768px) {
+  .project {
+    flex-direction: row; /* Adjust layout back to row for larger screens */
+    max-width: 800px; /* Limit maximum width for larger screens */
+    margin: auto; /* Center the project container */
+  }
+
+  .project-image {
+    max-width: 400px; /* Limit maximum image width for larger screens */
+    max-height: none; /* Allow the image to grow taller if needed */
+  }
+
+  .project-description {
+    flex: 1; /* Allow description to grow to fill remaining space */
+    padding: 20px;
+  }
+}
