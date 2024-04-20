@@ -1,6 +1,6 @@
 // ResumeButton.js
 import React from 'react';
-import resumePDF from '../assets/Sai_Rakesh_K (2).pdf';
+import resumePDF from '../assets/Sai_Rakesh_K (10).pdf';
 import './Resume.css';
 
 const ResumeButton = () => {
