@@ -23,7 +23,7 @@ const Home = () => {
           <a href="https://github.com/SaiRakeshk" target="_blank" rel="noopener noreferrer">
             <img src={githubLogo} alt="GitHub" className="social-icon" />
           </a>
-          <a href="https://www.linkedin.com/in/sai-rakesh-86132b13a/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/sai-rakesh-k-86132b13a/" target="_blank" rel="noopener noreferrer">
             <img src={linkedinLogo} alt="LinkedIn" className="social-icon" />
           </a>
         </div>
