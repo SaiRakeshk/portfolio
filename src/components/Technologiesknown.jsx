@@ -18,7 +18,7 @@ const Technologiesknown = () => {
     <div className="frontend">
       
       <img src={reactjsicon} alt="Frontend" className="tech-icon" />
-      <img src={Angular} alt="Frontend" className="tech-icon" />
+      {/* <img src={Angular} alt="Frontend" className="tech-icon" /> */}
     </div>
     <h3>Backend</h3>
     <div className="backend">

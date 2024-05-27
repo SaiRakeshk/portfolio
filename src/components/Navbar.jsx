@@ -1,8 +1,7 @@
 // Navbar.js
 
-import React from 'react';
 import './Navbar.css';
-import resumePDF from '../assets/Sai_Rakesh_K (10).pdf';
+import resumePDF from '../assets/Sai_Rakesh_K  .pdf';
 
 const Navbar = ({ scrollToProjects }) => {
   const handleContactClick = () => {
