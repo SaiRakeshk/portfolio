@@ -12,12 +12,6 @@ import ResumeButton from './components/Resume';
 const App = () => {
   const projectsRef = useRef(null);
   const contactRef = useRef(null);
-  const [darkMode, setDarkMode] = useState(false);
-
-  const toggleDarkMode = () => {
-    setDarkMode(prevMode => !prevMode);
-  };
-
   const scrollToProjects = () => {
     if (projectsRef.current) {
       projectsRef.current.scrollIntoView({ behavior: 'smooth' });
@@ -36,9 +30,7 @@ const App = () => {
 
   return (
     <>
-      <div className={`App ${darkMode ? 'dark-mode' : 'light-mode'}`}>
         <Navbar scrollToProjects={scrollToProjects} scrollToContact={handleContactClick} />
-        <DarkModeToggle darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <Home />
         <Technologiesknown />
         <Project projectsRef={projectsRef} />
