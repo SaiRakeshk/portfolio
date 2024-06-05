@@ -18,7 +18,7 @@ const Navbar = ({ scrollToProjects }) => {
 
   return (
     <div className="nav">
-      <div className="name" onClick={scrollToProjects}>Sai Rakesh K</div>
+      <div className="name" >Sai Rakesh K</div>
       <ul>
         <li onClick={scrollToProjects}>Projects</li>
         <li onClick={handleContactClick}>Contact</li>
