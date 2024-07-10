@@ -16,14 +16,14 @@ const Home = () => {
           </p>
         </div>
         <p>
-          I am an enthusiastic full-stack web developer with expertise in UI, testing, debugging, and database management.
+          I am an enthusiastic full-stack web developer with expertise in UI, debugging, and database management.
           Adaptable to all stages of advanced project development. <br/>Skilled in both independent and collaborative work.
         </p>
         <div className="social-icons">
           <a href="https://github.com/SaiRakeshk" target="_blank" rel="noopener noreferrer">
             <img src={githubLogo} alt="GitHub" className="social-icon" />
           </a>
-          <a href="https://www.linkedin.com/in/sai-rakesh-86132b13a/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/sai-rakesh-k-86132b13a/" target="_blank" rel="noopener noreferrer">
             <img src={linkedinLogo} alt="LinkedIn" className="social-icon" />
           </a>
         </div>

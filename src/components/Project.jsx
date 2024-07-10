@@ -3,6 +3,7 @@
 import React, { useRef } from 'react';
 import imgSrc from '../assets/realestate.jpg';
 import Oilimage from '../assets/olje.jpg';
+import FitnessImage from '../assets/fitness.jpg';
 
 
 import './Project.css'; // Import CSS for styling
@@ -27,6 +28,20 @@ const Project = ({ projectsRef }) => {
           <p className="project-text">
             <strong>Dynamic Routing</strong>, <strong>State Management</strong>, <strong>Modular Design</strong>, and <strong>UX/UI</strong>.
           </p>
+          </p>
+        </div>
+      </div>
+      <br></br><br></br>
+      <div className='project'>
+        <img src={FitnessImage} alt='project-image' className='project-image' />
+        <div className="project-description">
+          <h2 className="project-name">Fitness Website</h2>
+          <p className="project-text">
+            <strong>Tech Stack:</strong> React.js, API Integration <br />
+            <strong>Frontend Development:</strong> Developed a responsive frontend with React.js. <br />
+            <strong>API Integration:</strong> Integrated APIs for exercises, instructional content and food nutrition details. <br />
+            <strong>Key Features:</strong> Cross-device compatibility, dynamic routing and modular design for easy maintenance.<br />
+            <strong>Additional Features</strong> Implemented BMI calculation. <br />
           </p>
         </div>
       </div>

@@ -1,8 +1,9 @@
 // Navbar.js
 
 import './Navbar.css';
-import resumePDF from '../assets/Sai_Rakesh_K  .pdf';
+import resumePDF from '../assets/Sai_Rakesh_K (20).pdf';
 
+// eslint-disable-next-line react/prop-types
 const Navbar = ({ scrollToProjects }) => {
   const handleContactClick = () => {
     window.scrollTo({
@@ -18,7 +19,7 @@ const Navbar = ({ scrollToProjects }) => {
 
   return (
     <div className="nav">
-      <div className="name" onClick={scrollToProjects}>Sai Rakesh K</div>
+      <div className="name" >Sai Rakesh K</div>
       <ul>
         <li onClick={scrollToProjects}>Projects</li>
         <li onClick={handleContactClick}>Contact</li>

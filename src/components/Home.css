@@ -1,5 +1,5 @@
 .aboutme {
-   /* Black background color */
+
   padding: 20px;
   text-align: center;
 }
@@ -8,15 +8,15 @@
 }
 body {
  
-  background-color: #fdfafa; /* Black background color for the entire page */
-  color: #080808; /* White text color */
-  margin: 0; /* Remove default margin on body */
-  font-family: Arial, sans-serif; /* Set a preferred font-family */
+  background-color: #fdfafa; 
+  color: #080808; 
+  margin: 0; 
+  font-family: Arial, sans-serif; 
   padding-top: 70px;
 }
 .image {
   width: 200px;
-  height: 160px;
+  height: 170px;
   border-radius: 50%;
   overflow: hidden;
   margin-right: 20px;
@@ -32,7 +32,7 @@ body {
   margin-right: 200px;
   position: relative;
   overflow: hidden;
-  border-radius: 10px; /* Adjust the value to control the roundness of the edges */
+  border-radius: 10px; 
 }
 
 

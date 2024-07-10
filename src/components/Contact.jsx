@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import  { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser'; // Import EmailJS library
 import './Contact.css';
 import ResumeButton from './Resume';
@@ -23,7 +23,7 @@ const Contact = ({ contactRef }) => {
         }, 3000); // 3000 milliseconds = 3 seconds
       }, (error) => {
         console.log('FAILED...', error.text);
-        // Add any error handling here
+        
       });
   };
 
