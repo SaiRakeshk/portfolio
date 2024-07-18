@@ -3,7 +3,7 @@
 import React, { useRef } from 'react';
 import imgSrc from '../assets/realestate.jpg';
 import Oilimage from '../assets/olje.jpg';
-import FitnessImage from '../assets/fitness.jpg';
+import FitnessImage from '../assets/Fitness.jpg';
 
 
 import './Project.css'; // Import CSS for styling
