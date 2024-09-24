@@ -6,7 +6,6 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Project from './components/Project';
 import Technologiesknown from './components/Technologiesknown';
-import DarkModeToggle from './components/DarkModeToggle';
 import ResumeButton from './components/Resume';
 
 const App = () => {
