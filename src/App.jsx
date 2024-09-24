@@ -2,7 +2,7 @@
 import { useRef, useState } from 'react';
 import './App.css';
 import Contact from './components/Contact';
-import Home from './components/home'; // Ensure casing matches file name
+import Home from './components/Home'; 
 import Navbar from './components/Navbar';
 import Project from './components/Project';
 import Technologiesknown from './components/Technologiesknown';
