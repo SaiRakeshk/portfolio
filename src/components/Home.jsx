@@ -1,13 +1,11 @@
 
 import './Home.css';
-import imgSrc from '../assets/IMG-20200917-WA0026.jpg';
 import githubLogo from '../assets/github-logo.svg';
 import linkedinLogo from '../assets/linkedin-logo.svg';
 
 const Home = () => {
   return (
     <div className='aboutme'>
-      <img src={imgSrc} alt='my-image' className='image' />
       <div className='textbox'>
         <div className='important'>
           <p>

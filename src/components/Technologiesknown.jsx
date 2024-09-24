@@ -1,7 +1,6 @@
 
 import reactjsicon from '../assets/react-javascript-js-framework-facebook-svgrepo-com.svg';
-import Angular from '../assets/angular-svgrepo-com.svg';
-import backendIcon from '../assets/express-svgrepo-com.svg';
+import backendIcon from '../assets/icons8-express-js.svg';
 import Mongodb from '../assets/mongodb-logo-svgrepo-com.svg';
 import MySQL from '../assets/mysql-logo-svgrepo-com.svg';
 import java from '../assets/java-logo-svgrepo-com.svg';

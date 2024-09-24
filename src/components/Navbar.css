@@ -37,6 +37,66 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+/* Navbar.css */
+
+/* Center the contact form on the screen */
+.contact-form-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the form */
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 1000;
+  width: 100%;
+  max-width: 400px; /* Limit the maximum width of the form */
+}
+
+/* Adjust the form layout */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%; /* Ensure the input and textarea are full width */
+  box-sizing: border-box;
+}
+
+.success-message {
+  color: green;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.close-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  align-self: flex-end;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .contact-form-container {
+    width: 90%; /* Make the form width responsive on smaller screens */
+  }
+}
 
 /* Media Query for Responsive Design */
 @media only screen and (max-width: 768px) {

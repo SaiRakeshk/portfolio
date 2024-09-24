@@ -1,52 +1,67 @@
-/* Project.css */
-
+/* Project Container */
 .project-container {
   padding: 20px;
+  background-color: #1e1e1e; /* Match the dark background */
 }
 
+/* Individual Project Styling */
 .project {
   display: flex;
-  flex-direction: column; /* Adjust the layout for smaller screens */
+  flex-direction: column;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #f0f0f0;
-  margin-bottom: 20px; /* Add margin between project containers */
+  background-color: #2d2d2d; /* Darker project background */
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Add subtle shadow for depth */
+  transition: transform 0.3s ease-in-out;
 }
 
+.project:hover {
+  transform: scale(1.02); /* Slight zoom on hover for a modern touch */
+}
+
+/* Project Image */
 .project-image {
-  width: 400px; /* Adjust the width as needed */
-  height: 380px; /* Adjust the height as needed */
+  width: 100%; /* Ensure the image is responsive */
+  height: auto;
+  max-width: 400px; /* Limit image size */
+  object-fit: cover; /* Maintain aspect ratio */
 }
 
+/* Project Description */
 .project-description {
   padding: 20px;
+  color: #dcdcdc; /* Light text color */
 }
 
+/* Project Name Styling */
 .project-name {
-  font-size: 20px;
+  font-size: 24px;
   margin-bottom: 10px;
+  color: #61dafb; /* Consistent with your portfolio theme color */
 }
 
+/* Project Text */
 .project-text {
   font-size: 16px;
-  color: #555;
+  color: #b0b0b0; /* Light gray for readability */
 }
 
-/* Add media query for smaller screens */
+/* Media Queries for Larger Screens */
 @media only screen and (min-width: 768px) {
   .project {
-    flex-direction: row; /* Adjust layout back to row for larger screens */
-    max-width: 800px; /* Limit maximum width for larger screens */
-    margin: auto; /* Center the project container */
+    flex-direction: row; /* Return to row layout for larger screens */
+    max-width: 800px;
+    margin: 20px auto; /* Center and space out projects */
   }
 
   .project-image {
-    max-width: 400px; /* Limit maximum image width for larger screens */
-    max-height: none; /* Allow the image to grow taller if needed */
+    max-width: 400px;
+    height: auto;
   }
 
   .project-description {
-    flex: 1; /* Allow description to grow to fill remaining space */
+    flex: 1;
     padding: 20px;
   }
 }

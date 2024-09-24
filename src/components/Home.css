@@ -1,76 +1,73 @@
-.aboutme {
-
-  padding: 20px;
-  text-align: center;
-}
-.important{
-  font-size: 30px;
-}
+/* Body Styling */
 body {
- 
-  background-color: #fdfafa; 
-  color: #080808; 
-  margin: 0; 
-  font-family: Arial, sans-serif; 
+  background-color: #1e1e1e; /* Dark background for a developer-themed look */
+  color: #dcdcdc; /* Light gray text color */
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif; /* Use a clean and modern font */
   padding-top: 70px;
 }
-.image {
-  width: 200px;
-  height: 170px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-right: 20px;
-  margin-bottom: 30px;
-  size: fixed;
-}
 
-.textbox {
-  opacity: 0.9;
-  
-  padding: 10px;
-  margin-top: 20px;
-  margin-right: 200px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px; 
-}
-
-
+/* About Me Section */
 .aboutme {
   display: flex;
   align-items: center;
-  margin-left: 50px;
+  justify-content: center; /* Center align horizontally */
   margin-top: 100px;
+  flex-direction: column; /* Stack items vertically */
+  text-align: center;
+  padding: 20px;
+  background-color: #2d2d2d; /* Slightly lighter background for contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Add a subtle shadow for depth */
 }
 
-.p {
-  color: rgb(7, 0, 0);
-  margin: 0; /* Remove default margin for the p element */
-  white-space: nowrap; /* Prevent text from wrapping to a new line */
-  overflow: hidden;
-  animation: typing 3s steps(30, end) infinite;}
+/* Important Text Styling */
+.important {
+  font-size: 28px;
+  color: #61dafb; /* React's blue color, giving a dev vibe */
+  font-weight: bold;
+}
 
+/* Textbox Styling */
+.textbox {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #3c3c3c; /* Dark background for the textbox */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  opacity: 0.95;
+}
 
-  @media only screen and (max-width: 768px) {
-    .aboutme {
-      display: flex;
-      flex-direction: column; /* Change flex direction to column */
-      align-items: center; /* Center items horizontally */
-    }
-  
-    .image {
-      width: 80vw; /* Adjust width to fit the viewport */
-      max-width: 200px; /* Maximum width of 200px */
-      height: auto; /* Automatically adjust height to maintain aspect ratio */
-      border-radius: 50%;
-      overflow: hidden;
-      margin-bottom: 20px; /* Reduce bottom margin for spacing */
-    }
-  
-    .textbox {
-      width: 80vw; /* Adjust width to fit the viewport */
-      margin-right: 0; /* Remove right margin */
-      text-align: center; /* Center text */
-    }
+/* Social Icons */
+.social-icons a {
+  margin: 0 10px;
+  opacity: 0.8;
+}
+
+.social-icons a:hover {
+  opacity: 1;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  .aboutme {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
   }
-  
+
+  .textbox {
+    width: 90vw; /* Full width on smaller screens */
+    margin-right: 0; /* Remove right margin */
+    text-align: center;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+}
+
+/* Styling for Animations */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
