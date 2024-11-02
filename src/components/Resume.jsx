@@ -1,5 +1,5 @@
 // ResumeButton.js
-import resumePDF from '../assets/Sai_Rakesh_K   (2).pdf';
+import resumePDF from '../assets/Sai_Rakesh_K Resume  .pdf';
 import './Resume.css';
 
 const ResumeButton = () => {

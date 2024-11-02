@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import './Navbar.css';
-import resumePDF from '../assets/Sai_Rakesh_K   (2).pdf';
+import resumePDF from '../assets/Sai_Rakesh_K Resume  .pdf';
 import emailjs from '@emailjs/browser'; // Import EmailJS library
 
 const Navbar = ({ scrollToProjects }) => {
